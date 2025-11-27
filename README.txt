@@ -3,6 +3,7 @@ Gh0stTrace - Process Anomaly Scanner for Linux
 gh0sttrace.sh is a lightweight, terminal-friendly Bash tool designed to detect stealth processes, deleted-but-running executables, and non-TTY shell anomalies. It is ideal for blue teams, SOC analysts, and defenders looking to identify hidden activity on Linux systems using only native tools.
 
 Features
+
 - Detects deleted executables still running in memory (`(deleted)` ELF binaries).
 - Flags shell processes without a TTY (common in reverse shells or automated attacks).
 - Identifies suspicious parent-child shell relationships (cron, PID 1, orphaned shells).
